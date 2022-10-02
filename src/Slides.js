@@ -1,25 +1,25 @@
 import { useState } from "react";
-import { islands } from "./islands";
+import { cats } from "./cats";
 import './App.css';
 
 function Slides(){
     const [foto, setFoto]= useState(0);
-    const {fact, image}= islands[foto];
+    const {fact, image}= cats[foto];
 
-    const previousIsland=()=>{
+    const previousCat=()=>{
         setFoto((foto=>{
             foto --;
             if (foto<0){
-                return islands.length-1
+                return cats.length-1
             }
             return foto
         }))
     }
 
-    const nextIsland =()=>{
+    const nextCat =()=>{
         setFoto((foto=>{
             foto++;
-            if(foto>islands.length-1){
+            if(foto>cats.length-1){
                 foto=0;
             }
             return foto;
@@ -35,8 +35,8 @@ function Slides(){
         <img src={image} width="300px" alt="foto"></img>
         </div>
         <div className="container">
-            <button className="btnNexAndPrevious" onClick={previousIsland}>Предыдущий</button>
-            <button  className="btnNexAndPrevious" onClick={nextIsland}>Следующий</button>
+            <button className="btnNexAndPrevious" onClick={previousCat}>Предыдущий</button>
+            <button  className="btnNexAndPrevious" onClick={nextCat}>Следующий</button>
         </div>
 
     </div>)
