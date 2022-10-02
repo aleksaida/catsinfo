@@ -8,7 +8,7 @@ function App() {
 const [cats, setcats]=useState(data);
 const [showText, setShowText] = useState(false);
 
-const removeIsland=(id)=>{
+const removeCat=(id)=>{
   let newcats=cats.filter(cat=> cat.id !== id)
   setcats(newcats);
 }
@@ -45,7 +45,7 @@ return (
           </div>
 
           <div className="container">
-          <button className="btnDelete" onClick={()=>removeIsland (id)}>Удалить</button>
+          <button className="btnDelete" onClick={()=>removeCat (id)}>Удалить</button>
         </div>
 
         
