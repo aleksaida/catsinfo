@@ -53,3 +53,17 @@ button {
   flex-direction: column;
 }
 
+@media all and (max-width: 800px) {
+  .foto {
+    width: 90%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .heading {
+    text-align: center;
+  
+  }
+
