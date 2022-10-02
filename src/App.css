@@ -60,6 +60,7 @@ button {
 
   .card {
     width: 100%;
+    max-width: 800px;
   }
 
   .heading {
@@ -74,6 +75,7 @@ button {
 
   .card {
     width: 100%;
+    max-width: 500px;
   }
 
   .heading {
