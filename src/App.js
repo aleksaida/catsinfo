@@ -31,7 +31,7 @@ return (
         <div className="card"  key={id}>
 
           <div className="container">
-            <img src={image} alt="foto" width="250px"/>
+            <img className="foto" src={image} alt="foto" width="250px"/>
           </div>
 
           <div className="container">
