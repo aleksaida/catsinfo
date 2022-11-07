@@ -36,6 +36,10 @@ button {
   background-color: #F5C7A9;
 }
 
+.slideImage {
+  height: auto;
+}
+
 
 .card {
   margin: 5px;
