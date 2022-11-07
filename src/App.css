@@ -38,6 +38,7 @@ button {
 
 .slideImage {
   height: auto;
+  width: 400px;
 }
 
 
@@ -49,7 +50,6 @@ button {
   display: flex;
   flex-direction: column;
   align-self: center;
-
 }
 
 .big {
