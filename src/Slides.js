@@ -32,7 +32,7 @@ function Slides(){
         <p className="aboutText">{ fact }</p>
         </div>
         <div className="container">
-        <img className="slideImage"src={image} width="300px" alt="foto"></img>
+        <img className="slideImage" src={image} width="300px" alt="foto"></img>
         </div>
         <div className="container">
             <button className="btnNexAndPrevious" onClick={previousCat}>Предыдущий</button>
