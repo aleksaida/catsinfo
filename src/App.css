@@ -26,7 +26,6 @@ button {
   font-size: 20px;
   width: 80%;
   text-align: center;
-  height: 400px;
 }
 
 .heading {
@@ -37,10 +36,6 @@ button {
   background-color: #F5C7A9;
 }
 
-.slideImage {
-  height: auto;
-  width: 400px;
-}
 
 
 .card {
