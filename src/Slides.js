@@ -29,7 +29,7 @@ function Slides(){
     
         <div>
         <div className="container">
-        <p className="aboutText">{ fact }</p>
+        <p className="aboutSlideText">{ fact }</p>
         </div>
         <div className="container">
         <img className="slideImage" src={image} width="300px" alt="foto"></img>
