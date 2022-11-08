@@ -27,7 +27,7 @@ function Slides(){
     }
     return(
     
-        <div>
+        <div className="slideContainer">
         <div className="container">
         <p className="aboutSlideText">{ fact }</p>
         </div>
