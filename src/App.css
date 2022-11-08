@@ -32,6 +32,7 @@ button {
   font-size: 20px;
   width: 80%;
   height: 250px;
+  text-align: center;
 }
 
 .heading {
@@ -40,7 +41,7 @@ button {
 
 .slideContainer {
   background-color: #F5C7A9;
-  height: 520px;
+  height: 530px;
 }
 
 .slideImage {
