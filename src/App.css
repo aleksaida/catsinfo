@@ -8,8 +8,6 @@ body {
   
 } 
 
-
-
 button {
   background-color: #446A46;
   color: #FFC4DD;
@@ -48,8 +46,6 @@ button {
   height: 240px;
 }
 
-
-
 .card {
   margin: 5px;
   padding: 10px;
@@ -77,11 +73,10 @@ button {
 
   .heading {
     text-align: center;
-  
   }
   
   .aboutText, .aboutSlideText {
-    font-size: 15px;
+    font-size: 18px;
   }
   
 }
